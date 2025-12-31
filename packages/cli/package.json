@@ -1,0 +1,27 @@
+{
+  "name": "@gym-bench/cli",
+  "version": "1.0.0",
+  "description": "CLI tool for Gym AI Benchmark",
+  "main": "dist/index.js",
+  "bin": {
+    "gym-bench": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@gym-bench/core": "*",
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3"
+  }
+}
+

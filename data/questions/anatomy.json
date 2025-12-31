@@ -1,0 +1,171 @@
+[
+  {
+    "id": "gym-001",
+    "question": "Qual é o principal músculo recrutado durante o exercício de supino reto?",
+    "choices": [
+      "Bíceps braquial",
+      "Peitoral maior",
+      "Trapézio superior",
+      "Quadríceps femoral"
+    ],
+    "answer": 1,
+    "category": "anatomy",
+    "difficulty": "easy",
+    "explanation": "O peitoral maior é o principal agonista do supino reto, responsável pela adução e flexão horizontal do ombro."
+  },
+  {
+    "id": "gym-002",
+    "question": "Qual músculo é o principal responsável pela extensão do joelho?",
+    "choices": [
+      "Bíceps femoral",
+      "Gastrocnêmio",
+      "Quadríceps femoral",
+      "Tibial anterior"
+    ],
+    "answer": 2,
+    "category": "anatomy",
+    "difficulty": "easy",
+    "explanation": "O quadríceps femoral (reto femoral, vasto lateral, vasto medial e vasto intermédio) é o principal extensor do joelho."
+  },
+  {
+    "id": "gym-003",
+    "question": "Qual sistema energético é predominante em exercícios de alta intensidade com duração de 10-30 segundos?",
+    "choices": [
+      "Sistema aeróbico",
+      "Sistema oxidativo",
+      "Sistema ATP-CP (fosfagênio)",
+      "Sistema glicolítico (ácido lático)"
+    ],
+    "answer": 3,
+    "category": "anatomy",
+    "difficulty": "medium",
+    "explanation": "O sistema glicolítico fornece energia através da quebra da glicose sem oxigênio, sendo predominante em esforços de 10-30 segundos."
+  },
+  {
+    "id": "gym-004",
+    "question": "Qual músculo NÃO faz parte do grupo dos isquiotibiais?",
+    "choices": [
+      "Bíceps femoral",
+      "Semitendinoso",
+      "Semimembranoso",
+      "Reto femoral"
+    ],
+    "answer": 3,
+    "category": "anatomy",
+    "difficulty": "medium",
+    "explanation": "O reto femoral faz parte do quadríceps femoral, não dos isquiotibiais. Os isquiotibiais são: bíceps femoral, semitendinoso e semimembranoso."
+  },
+  {
+    "id": "gym-005",
+    "question": "Durante a fase excêntrica de um movimento, o músculo está:",
+    "choices": [
+      "Encurtando sob tensão",
+      "Alongando sob tensão",
+      "Em isometria",
+      "Relaxado completamente"
+    ],
+    "answer": 1,
+    "category": "anatomy",
+    "difficulty": "easy",
+    "explanation": "A fase excêntrica é caracterizada pelo alongamento do músculo enquanto mantém tensão, como na descida do supino."
+  },
+  {
+    "id": "gym-006",
+    "question": "Qual tipo de fibra muscular é mais resistente à fadiga e utilizada predominantemente em exercícios aeróbicos?",
+    "choices": [
+      "Fibras tipo IIx (fast-twitch)",
+      "Fibras tipo IIa (intermediate)",
+      "Fibras tipo I (slow-twitch)",
+      "Fibras tipo III"
+    ],
+    "answer": 2,
+    "category": "anatomy",
+    "difficulty": "medium",
+    "explanation": "As fibras tipo I (slow-twitch) são ricas em mitocôndrias, têm alta capacidade oxidativa e são mais resistentes à fadiga."
+  },
+  {
+    "id": "gym-007",
+    "question": "Qual músculo é considerado o principal flexor do cotovelo?",
+    "choices": [
+      "Tríceps braquial",
+      "Bíceps braquial",
+      "Deltóide anterior",
+      "Peitoral maior"
+    ],
+    "answer": 1,
+    "category": "anatomy",
+    "difficulty": "easy",
+    "explanation": "O bíceps braquial é o principal flexor do cotovelo, sendo altamente recrutado em exercícios de rosca."
+  },
+  {
+    "id": "gym-008",
+    "question": "O que é hipertrofia muscular?",
+    "choices": [
+      "Redução do tamanho muscular",
+      "Aumento do número de fibras musculares",
+      "Aumento do tamanho das fibras musculares",
+      "Perda de força muscular"
+    ],
+    "answer": 2,
+    "category": "anatomy",
+    "difficulty": "easy",
+    "explanation": "Hipertrofia é o aumento do tamanho (volume) das fibras musculares através do treinamento de força, não do número de fibras."
+  },
+  {
+    "id": "gym-009",
+    "question": "Qual das seguintes afirmações sobre o músculo transverso do abdômen está CORRETA?",
+    "choices": [
+      "É o músculo mais superficial do core",
+      "Atua principalmente na flexão do tronco",
+      "É responsável pela estabilização da coluna vertebral",
+      "É o principal músculo visível do abdômen"
+    ],
+    "answer": 2,
+    "category": "anatomy",
+    "difficulty": "medium",
+    "explanation": "O transverso do abdômen é o músculo mais profundo do core e atua principalmente na estabilização da coluna vertebral."
+  },
+  {
+    "id": "gym-010",
+    "question": "Durante a contração muscular, o que acontece com o sarcômero?",
+    "choices": [
+      "Os filamentos de actina e miosina se afastam",
+      "A banda A aumenta de tamanho",
+      "A banda I diminui de tamanho",
+      "O disco Z se fragmenta"
+    ],
+    "answer": 2,
+    "category": "anatomy",
+    "difficulty": "hard",
+    "explanation": "Durante a contração, os filamentos de actina deslizam sobre a miosina, reduzindo o tamanho da banda I e da zona H."
+  },
+  {
+    "id": "gym-011",
+    "question": "Qual hormônio é considerado o principal anabólico para o crescimento muscular?",
+    "choices": [
+      "Cortisol",
+      "Insulina",
+      "Testosterona",
+      "Adrenalina"
+    ],
+    "answer": 2,
+    "category": "anatomy",
+    "difficulty": "medium",
+    "explanation": "A testosterona é o principal hormônio anabólico, promovendo síntese proteica e crescimento muscular."
+  },
+  {
+    "id": "gym-012",
+    "question": "Qual é a principal função do músculo grande dorsal?",
+    "choices": [
+      "Abdução do ombro",
+      "Flexão do ombro",
+      "Extensão e adução do ombro",
+      "Rotação externa do ombro"
+    ],
+    "answer": 2,
+    "category": "anatomy",
+    "difficulty": "medium",
+    "explanation": "O grande dorsal (latíssimo do dorso) é responsável principalmente pela extensão, adução e rotação interna do ombro."
+  }
+]
+

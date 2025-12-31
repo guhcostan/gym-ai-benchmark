@@ -1,0 +1,143 @@
+[
+  {
+    "id": "gym-059",
+    "question": "Qual tipo de alavanca é representada pela articulação do cotovelo durante uma rosca direta?",
+    "choices": [
+      "Alavanca de primeira classe",
+      "Alavanca de segunda classe",
+      "Alavanca de terceira classe",
+      "Não é uma alavanca"
+    ],
+    "answer": 2,
+    "category": "biomechanics",
+    "difficulty": "medium",
+    "explanation": "No cotovelo, a força (inserção do bíceps) está entre o eixo (articulação) e a resistência (peso na mão), caracterizando 3ª classe."
+  },
+  {
+    "id": "gym-060",
+    "question": "Qual plano anatômico divide o corpo em partes anterior e posterior?",
+    "choices": [
+      "Plano sagital",
+      "Plano frontal (coronal)",
+      "Plano transverso (horizontal)",
+      "Plano oblíquo"
+    ],
+    "answer": 1,
+    "category": "biomechanics",
+    "difficulty": "easy",
+    "explanation": "O plano frontal (ou coronal) divide o corpo em porções anterior (frente) e posterior (trás)."
+  },
+  {
+    "id": "gym-061",
+    "question": "Durante o agachamento, qual tipo de cadeia cinética está predominantemente ativa?",
+    "choices": [
+      "Cadeia cinética aberta",
+      "Cadeia cinética fechada",
+      "Nenhuma cadeia cinética",
+      "Cadeia cinética mista"
+    ],
+    "answer": 1,
+    "category": "biomechanics",
+    "difficulty": "medium",
+    "explanation": "Agachamento é um exercício de cadeia cinética fechada, onde o segmento distal (pés) está fixo e múltiplas articulações se movem."
+  },
+  {
+    "id": "gym-062",
+    "question": "O que é torque no contexto biomecânico?",
+    "choices": [
+      "Velocidade de movimento",
+      "Força de rotação = Força × Distância perpendicular ao eixo",
+      "Peso do corpo",
+      "Amplitude de movimento"
+    ],
+    "answer": 1,
+    "category": "biomechanics",
+    "difficulty": "medium",
+    "explanation": "Torque é a força rotacional aplicada a uma articulação, calculado pela força multiplicada pela distância perpendicular."
+  },
+  {
+    "id": "gym-063",
+    "question": "Por que o supino com pegada mais larga aumenta o recrutamento do peitoral?",
+    "choices": [
+      "Reduz o braço de momento do ombro",
+      "Aumenta o braço de momento e a amplitude de movimento horizontal",
+      "Diminui a carga sobre o músculo",
+      "Não há diferença biomecânica"
+    ],
+    "answer": 1,
+    "category": "biomechanics",
+    "difficulty": "hard",
+    "explanation": "Pegada larga aumenta o braço de momento da resistência em relação ao ombro e enfatiza a adução horizontal (peitoral)."
+  },
+  {
+    "id": "gym-064",
+    "question": "Qual movimento ocorre no plano sagital?",
+    "choices": [
+      "Abdução e adução",
+      "Rotação interna e externa",
+      "Flexão e extensão",
+      "Desvio lateral"
+    ],
+    "answer": 2,
+    "category": "biomechanics",
+    "difficulty": "easy",
+    "explanation": "Movimentos de flexão e extensão ocorrem no plano sagital, que divide o corpo em lado esquerdo e direito."
+  },
+  {
+    "id": "gym-065",
+    "question": "O que acontece com o torque quando a distância entre a carga e a articulação aumenta?",
+    "choices": [
+      "Torque diminui",
+      "Torque permanece igual",
+      "Torque aumenta",
+      "Torque se anula"
+    ],
+    "answer": 2,
+    "category": "biomechanics",
+    "difficulty": "medium",
+    "explanation": "Torque = Força × Distância. Aumentar a distância (braço de momento) aumenta o torque sobre a articulação."
+  },
+  {
+    "id": "gym-066",
+    "question": "Qual é a principal vantagem biomecânica de exercícios compostos sobre isolados?",
+    "choices": [
+      "Recrutam apenas um músculo",
+      "Permitem maior carga total e recrutamento multi-articular",
+      "São mais fáceis de executar",
+      "Não têm vantagens"
+    ],
+    "answer": 1,
+    "category": "biomechanics",
+    "difficulty": "easy",
+    "explanation": "Exercícios compostos permitem maior sobrecarga total e recrutamento sinérgico de múltiplos grupos musculares."
+  },
+  {
+    "id": "gym-067",
+    "question": "O que é o centro de massa (ou centro de gravidade) do corpo?",
+    "choices": [
+      "Sempre localizado no umbigo",
+      "Ponto onde a massa está equilibrada em todas as direções",
+      "Sempre fixo independente da posição",
+      "Localizado na cabeça"
+    ],
+    "answer": 1,
+    "category": "biomechanics",
+    "difficulty": "medium",
+    "explanation": "Centro de massa é o ponto onde toda a massa corporal está equilibrada; muda com a posição do corpo."
+  },
+  {
+    "id": "gym-068",
+    "question": "Por que a fase excêntrica de um movimento pode gerar mais força que a concêntrica?",
+    "choices": [
+      "Não pode gerar mais força",
+      "Devido à contribuição dos elementos elásticos e pontes cruzadas",
+      "Porque usa músculos diferentes",
+      "Porque é mais rápida"
+    ],
+    "answer": 1,
+    "category": "biomechanics",
+    "difficulty": "hard",
+    "explanation": "Na fase excêntrica, elementos elásticos (titina) e maior número de pontes cruzadas ativas permitem ~20-40% mais força."
+  }
+]
+

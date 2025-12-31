@@ -1,0 +1,171 @@
+[
+  {
+    "id": "gym-025",
+    "question": "O que é periodização no treinamento de força?",
+    "choices": [
+      "Treinar sempre com a mesma carga",
+      "Organização sistemática do treinamento em ciclos com objetivos específicos",
+      "Treinar apenas uma vez por semana",
+      "Alternar entre membros superiores e inferiores"
+    ],
+    "answer": 1,
+    "category": "programming",
+    "difficulty": "easy",
+    "explanation": "Periodização é a divisão do treinamento em ciclos (macro, meso e microciclos) com progressão planejada de volume e intensidade."
+  },
+  {
+    "id": "gym-026",
+    "question": "Qual faixa de repetições é geralmente recomendada para hipertrofia muscular?",
+    "choices": [
+      "1-5 repetições",
+      "6-12 repetições",
+      "15-20 repetições",
+      "Mais de 30 repetições"
+    ],
+    "answer": 1,
+    "category": "programming",
+    "difficulty": "easy",
+    "explanation": "A faixa de 6-12 repetições com intensidade moderada a alta (70-85% 1RM) é classicamente associada à hipertrofia."
+  },
+  {
+    "id": "gym-027",
+    "question": "O que significa o princípio da sobrecarga progressiva?",
+    "choices": [
+      "Treinar até a falha muscular sempre",
+      "Aumentar gradualmente o estímulo (carga, volume, frequência) ao longo do tempo",
+      "Treinar o mesmo músculo todos os dias",
+      "Fazer apenas exercícios compostos"
+    ],
+    "answer": 1,
+    "category": "programming",
+    "difficulty": "easy",
+    "explanation": "A sobrecarga progressiva é essencial para adaptação contínua, aumentando gradualmente a demanda sobre o músculo."
+  },
+  {
+    "id": "gym-028",
+    "question": "Qual é a diferença principal entre volume e intensidade no treinamento?",
+    "choices": [
+      "São sinônimos",
+      "Volume é a quantidade de trabalho (séries x reps x carga); intensidade é a carga relativa",
+      "Volume é para iniciantes; intensidade é para avançados",
+      "Volume se refere ao cardio; intensidade ao musculação"
+    ],
+    "answer": 1,
+    "category": "programming",
+    "difficulty": "medium",
+    "explanation": "Volume é o total de trabalho realizado (séries x reps x carga), enquanto intensidade é a carga em relação ao máximo (% 1RM)."
+  },
+  {
+    "id": "gym-029",
+    "question": "Para um iniciante, qual frequência semanal de treino de força é geralmente recomendada?",
+    "choices": [
+      "1 vez por semana",
+      "2-3 vezes por semana (corpo inteiro)",
+      "6-7 vezes por semana",
+      "Apenas uma vez por mês"
+    ],
+    "answer": 1,
+    "category": "programming",
+    "difficulty": "easy",
+    "explanation": "Iniciantes se beneficiam de treinos de corpo inteiro 2-3x/semana, permitindo maior frequência de estímulo e recuperação adequada."
+  },
+  {
+    "id": "gym-030",
+    "question": "O que é uma periodização linear clássica?",
+    "choices": [
+      "Manter volume e intensidade constantes",
+      "Aumentar intensidade e reduzir volume progressivamente ao longo dos ciclos",
+      "Alternar aleatoriamente entre exercícios",
+      "Treinar sempre com altíssima intensidade"
+    ],
+    "answer": 1,
+    "category": "programming",
+    "difficulty": "medium",
+    "explanation": "Na periodização linear clássica, o volume diminui e a intensidade aumenta progressivamente ao longo dos mesociclos."
+  },
+  {
+    "id": "gym-031",
+    "question": "Qual é o tempo de descanso recomendado entre séries para treino focado em força máxima?",
+    "choices": [
+      "30 segundos",
+      "1 minuto",
+      "3-5 minutos",
+      "10 minutos"
+    ],
+    "answer": 2,
+    "category": "programming",
+    "difficulty": "medium",
+    "explanation": "Para força máxima (cargas >85% 1RM), são necessários 3-5 minutos para recuperação adequada do sistema ATP-CP."
+  },
+  {
+    "id": "gym-032",
+    "question": "O que caracteriza um mesociclo de treinamento?",
+    "choices": [
+      "Um único treino",
+      "Um dia de descanso",
+      "Um bloco de 3-6 semanas com objetivo específico",
+      "Um ano de treinamento"
+    ],
+    "answer": 2,
+    "category": "programming",
+    "difficulty": "medium",
+    "explanation": "Mesociclo é um bloco intermediário de treinamento (geralmente 3-6 semanas) focado em um objetivo específico como hipertrofia ou força."
+  },
+  {
+    "id": "gym-033",
+    "question": "Qual princípio defende que os exercícios devem ser específicos ao objetivo desejado?",
+    "choices": [
+      "Princípio da sobrecarga",
+      "Princípio da especificidade",
+      "Princípio da reversibilidade",
+      "Princípio da variabilidade"
+    ],
+    "answer": 1,
+    "category": "programming",
+    "difficulty": "easy",
+    "explanation": "O princípio da especificidade determina que as adaptações são específicas ao tipo de estímulo aplicado."
+  },
+  {
+    "id": "gym-034",
+    "question": "O que é deload (descarga) no contexto de periodização?",
+    "choices": [
+      "Parar completamente de treinar",
+      "Semana com redução intencional de volume/intensidade para recuperação",
+      "Aumentar drasticamente a carga",
+      "Treinar apenas cardio"
+    ],
+    "answer": 1,
+    "category": "programming",
+    "difficulty": "medium",
+    "explanation": "Deload é uma semana de recuperação ativa com redução de 40-60% do volume/intensidade para permitir supercompensação."
+  },
+  {
+    "id": "gym-035",
+    "question": "Para desenvolvimento de potência, qual faixa de intensidade e velocidade é mais apropriada?",
+    "choices": [
+      "Baixa intensidade e velocidade lenta",
+      "Alta intensidade (30-60% 1RM) e velocidade máxima de execução",
+      "100% 1RM com velocidade lenta",
+      "Baixa intensidade com muitas repetições"
+    ],
+    "answer": 1,
+    "category": "programming",
+    "difficulty": "hard",
+    "explanation": "Potência = força x velocidade. Treinos de potência usam 30-60% 1RM executados com máxima velocidade intencional."
+  },
+  {
+    "id": "gym-036",
+    "question": "Qual é a principal vantagem da periodização ondulatória sobre a linear?",
+    "choices": [
+      "É mais simples de implementar",
+      "Permite variar volume e intensidade mais frequentemente (semanalmente)",
+      "Requer menos exercícios",
+      "É exclusiva para atletas de elite"
+    ],
+    "answer": 1,
+    "category": "programming",
+    "difficulty": "hard",
+    "explanation": "A periodização ondulatória varia volume/intensidade em ciclos menores (semanal ou diário), potencialmente reduzindo monotonia e platôs."
+  }
+]
+

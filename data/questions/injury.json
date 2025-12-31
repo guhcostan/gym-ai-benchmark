@@ -1,0 +1,143 @@
+[
+  {
+    "id": "gym-049",
+    "question": "Qual é uma das principais causas de lesões no treinamento de força?",
+    "choices": [
+      "Aquecimento adequado",
+      "Progressão excessivamente rápida da carga",
+      "Descanso suficiente",
+      "Técnica correta"
+    ],
+    "answer": 1,
+    "category": "injury",
+    "difficulty": "easy",
+    "explanation": "Aumentar carga muito rapidamente sem permitir adaptação adequada é uma das principais causas de lesões por sobrecarga."
+  },
+  {
+    "id": "gym-050",
+    "question": "O que é tendinite?",
+    "choices": [
+      "Inflamação de um tendão",
+      "Ruptura completa do músculo",
+      "Fratura óssea",
+      "Lesão de ligamento"
+    ],
+    "answer": 0,
+    "category": "injury",
+    "difficulty": "easy",
+    "explanation": "Tendinite é a inflamação de um tendão, geralmente causada por overuse ou técnica inadequada."
+  },
+  {
+    "id": "gym-051",
+    "question": "Qual estrutura é mais comumente lesionada em acidentes com levantamento terra mal executado?",
+    "choices": [
+      "Joelho",
+      "Ombro",
+      "Coluna lombar",
+      "Tornozelo"
+    ],
+    "answer": 2,
+    "category": "injury",
+    "difficulty": "easy",
+    "explanation": "A coluna lombar é a região mais vulnerável no levantamento terra, especialmente com flexão lombar sob carga."
+  },
+  {
+    "id": "gym-052",
+    "question": "O que é o impacto do ombro (shoulder impingement)?",
+    "choices": [
+      "Fratura da clavícula",
+      "Compressão de tendões do manguito rotador no espaço subacromial",
+      "Luxação do ombro",
+      "Ruptura do bíceps"
+    ],
+    "answer": 1,
+    "category": "injury",
+    "difficulty": "medium",
+    "explanation": "Impacto ocorre quando os tendões do manguito rotador são comprimidos no espaço subacromial, causando dor e inflamação."
+  },
+  {
+    "id": "gym-053",
+    "question": "Qual é a abordagem inicial recomendada para uma lesão aguda com inflamação?",
+    "choices": [
+      "Aplicar calor imediatamente",
+      "Continuar treinando normalmente",
+      "Protocolo RICE (Rest, Ice, Compression, Elevation)",
+      "Ignorar completamente"
+    ],
+    "answer": 2,
+    "category": "injury",
+    "difficulty": "easy",
+    "explanation": "RICE (Repouso, Gelo, Compressão, Elevação) é o protocolo inicial para lesões agudas com inflamação."
+  },
+  {
+    "id": "gym-054",
+    "question": "Qual músculo do manguito rotador é mais frequentemente lesionado?",
+    "choices": [
+      "Supraespinhal",
+      "Infraespinhal",
+      "Redondo menor",
+      "Subescapular"
+    ],
+    "answer": 0,
+    "category": "injury",
+    "difficulty": "medium",
+    "explanation": "O supraespinhal é o músculo mais frequentemente lesionado do manguito rotador devido à sua posição e vascularização."
+  },
+  {
+    "id": "gym-055",
+    "question": "O que caracteriza uma lesão por esforço repetitivo (LER)?",
+    "choices": [
+      "Lesão traumática aguda",
+      "Lesão causada por movimentos repetitivos sem recuperação adequada",
+      "Fratura por impacto",
+      "Lesão exclusiva de atletas profissionais"
+    ],
+    "answer": 1,
+    "category": "injury",
+    "difficulty": "easy",
+    "explanation": "LER resulta de movimentos repetitivos sem tempo adequado de recuperação, causando microtraumas cumulativos."
+  },
+  {
+    "id": "gym-056",
+    "question": "Qual exercício apresenta maior risco para a articulação do ombro quando executado incorretamente?",
+    "choices": [
+      "Agachamento",
+      "Desenvolvimento por trás da nuca",
+      "Leg press",
+      "Rosca direta"
+    ],
+    "answer": 1,
+    "category": "injury",
+    "difficulty": "medium",
+    "explanation": "Desenvolvimento por trás coloca o ombro em rotação externa extrema com carga, aumentando risco de impacto e lesões."
+  },
+  {
+    "id": "gym-057",
+    "question": "O que é importante fazer antes de retornar ao treinamento após uma lesão?",
+    "choices": [
+      "Voltar imediatamente com a mesma carga",
+      "Garantir amplitude de movimento completa e sem dor",
+      "Esperar sentir dor novamente",
+      "Aumentar a carga imediatamente"
+    ],
+    "answer": 1,
+    "category": "injury",
+    "difficulty": "medium",
+    "explanation": "Antes do retorno, é essencial ter amplitude completa, sem dor, e força adequada para evitar re-lesão."
+  },
+  {
+    "id": "gym-058",
+    "question": "Qual é um sinal de alerta de overtraining (excesso de treinamento)?",
+    "choices": [
+      "Melhora constante de performance",
+      "Sono de qualidade",
+      "Fadiga persistente e queda de performance",
+      "Aumento do apetite"
+    ],
+    "answer": 2,
+    "category": "injury",
+    "difficulty": "medium",
+    "explanation": "Fadiga crônica, queda de performance, alterações de humor e sono são sinais clássicos de overtraining."
+  }
+]
+

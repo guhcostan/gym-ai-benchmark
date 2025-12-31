@@ -1,0 +1,42 @@
+{
+  "name": "gym-ai-benchmark",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI Benchmark for Physical Education and Gym Training Knowledge",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "dev:cli": "npm run dev --workspace=@gym-bench/cli",
+    "dev:web": "npm run dev --workspace=@gym-bench/web",
+    "gym-bench": "node packages/cli/dist/index.js",
+    "setup": "npm install && npm run build && echo '\n✅ Setup complete! Run: npx gym-bench models'"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.1",
+    "turbo": "^1.11.3",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "keywords": [
+    "ai",
+    "benchmark",
+    "fitness",
+    "gym",
+    "exercise",
+    "physical-education",
+    "llm",
+    "evaluation"
+  ],
+  "author": "Gustavo Neves",
+  "license": "MIT"
+}

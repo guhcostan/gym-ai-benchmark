@@ -1,0 +1,171 @@
+[
+  {
+    "id": "gym-037",
+    "question": "Qual é a recomendação diária de proteína para indivíduos praticantes de musculação visando hipertrofia?",
+    "choices": [
+      "0.5-0.8g por kg de peso corporal",
+      "1.6-2.2g por kg de peso corporal",
+      "5g por kg de peso corporal",
+      "Proteína não é importante para hipertrofia"
+    ],
+    "answer": 1,
+    "category": "nutrition",
+    "difficulty": "easy",
+    "explanation": "Estudos indicam que 1.6-2.2g/kg é a faixa ideal para maximizar síntese proteica e hipertrofia em praticantes de musculação."
+  },
+  {
+    "id": "gym-038",
+    "question": "Qual macronutriente é a principal fonte de energia para exercícios de alta intensidade?",
+    "choices": [
+      "Proteína",
+      "Gordura",
+      "Carboidrato",
+      "Vitaminas"
+    ],
+    "answer": 2,
+    "category": "nutrition",
+    "difficulty": "easy",
+    "explanation": "Carboidratos são armazenados como glicogênio muscular e são a principal fonte de energia para exercícios de alta intensidade."
+  },
+  {
+    "id": "gym-039",
+    "question": "O que é a 'janela anabólica' pós-treino?",
+    "choices": [
+      "Período de 2 horas após o treino crucial para consumo de proteína",
+      "Conceito superestimado; timing total diário é mais importante",
+      "Janela de apenas 15 minutos para consumir carboidratos",
+      "Momento em que não se deve comer"
+    ],
+    "answer": 1,
+    "category": "nutrition",
+    "difficulty": "medium",
+    "explanation": "Pesquisas recentes mostram que a 'janela anabólica' é menos crítica do que se pensava; o total de nutrientes diário é mais relevante."
+  },
+  {
+    "id": "gym-040",
+    "question": "Qual é a função principal da creatina como suplemento?",
+    "choices": [
+      "Queimar gordura diretamente",
+      "Aumentar os níveis de fosfocreatina muscular para ressíntese de ATP",
+      "Substituir proteínas da dieta",
+      "Melhorar o sono"
+    ],
+    "answer": 1,
+    "category": "nutrition",
+    "difficulty": "medium",
+    "explanation": "A creatina aumenta os estoques de fosfocreatina, permitindo maior produção de ATP durante exercícios de alta intensidade."
+  },
+  {
+    "id": "gym-041",
+    "question": "Para perda de gordura, qual estratégia nutricional é essencial?",
+    "choices": [
+      "Eliminar completamente carboidratos",
+      "Criar um déficit calórico sustentável",
+      "Comer apenas proteínas",
+      "Pular todas as refeições"
+    ],
+    "answer": 1,
+    "category": "nutrition",
+    "difficulty": "easy",
+    "explanation": "Um déficit calórico (consumir menos calorias do que se gasta) é o único requisito absoluto para perda de gordura."
+  },
+  {
+    "id": "gym-042",
+    "question": "Qual é a dose de manutenção diária recomendada para creatina monohidratada?",
+    "choices": [
+      "1g",
+      "3-5g",
+      "20g",
+      "50g"
+    ],
+    "answer": 1,
+    "category": "nutrition",
+    "difficulty": "easy",
+    "explanation": "Após a fase de saturação (ou sem ela), 3-5g/dia é suficiente para manter os estoques de creatina muscular elevados."
+  },
+  {
+    "id": "gym-043",
+    "question": "Qual dos seguintes aminoácidos é considerado essencial e importante para síntese proteica muscular?",
+    "choices": [
+      "Alanina",
+      "Leucina",
+      "Ácido aspártico",
+      "Glicina"
+    ],
+    "answer": 1,
+    "category": "nutrition",
+    "difficulty": "medium",
+    "explanation": "Leucina é um aminoácido essencial (BCAA) que atua como gatilho principal para ativar a via mTOR de síntese proteica."
+  },
+  {
+    "id": "gym-044",
+    "question": "Em um contexto de emagrecimento, qual macronutriente deve ser priorizado para preservar massa muscular?",
+    "choices": [
+      "Carboidratos",
+      "Gorduras",
+      "Proteínas",
+      "Todos igualmente"
+    ],
+    "answer": 2,
+    "category": "nutrition",
+    "difficulty": "easy",
+    "explanation": "Proteínas devem ser mantidas altas (2-2.5g/kg) durante déficit calórico para preservar massa magra e aumentar saciedade."
+  },
+  {
+    "id": "gym-045",
+    "question": "O que são BCAAs?",
+    "choices": [
+      "Vitaminas do complexo B",
+      "Aminoácidos de cadeia ramificada (leucina, isoleucina, valina)",
+      "Tipo de carboidrato",
+      "Ácidos graxos essenciais"
+    ],
+    "answer": 1,
+    "category": "nutrition",
+    "difficulty": "medium",
+    "explanation": "BCAAs (Branched-Chain Amino Acids) são três aminoácidos essenciais: leucina, isoleucina e valina, importantes para síntese proteica."
+  },
+  {
+    "id": "gym-046",
+    "question": "Qual é o papel principal da insulina no contexto de nutrição esportiva?",
+    "choices": [
+      "Hormônio catabólico que quebra músculos",
+      "Hormônio anabólico que facilita entrada de nutrientes nas células",
+      "Hormônio que só causa ganho de gordura",
+      "Não tem relação com nutrição"
+    ],
+    "answer": 1,
+    "category": "nutrition",
+    "difficulty": "medium",
+    "explanation": "Insulina é um hormônio anabólico que facilita o transporte de glicose e aminoácidos para dentro das células, incluindo células musculares."
+  },
+  {
+    "id": "gym-047",
+    "question": "Qual suplemento tem evidências científicas mais sólidas para melhora de performance e hipertrofia?",
+    "choices": [
+      "Termogênicos",
+      "Creatina monohidratada",
+      "Glutamina",
+      "Tribulus terrestris"
+    ],
+    "answer": 1,
+    "category": "nutrition",
+    "difficulty": "easy",
+    "explanation": "Creatina é um dos suplementos com maior evidência científica para melhora de performance, força e hipertrofia muscular."
+  },
+  {
+    "id": "gym-048",
+    "question": "Em uma dieta para hipertrofia, qual porcentagem aproximada de calorias deve vir de carboidratos?",
+    "choices": [
+      "0-10%",
+      "15-25%",
+      "40-60%",
+      "80-90%"
+    ],
+    "answer": 2,
+    "category": "nutrition",
+    "difficulty": "medium",
+    "explanation": "Para hipertrofia, 40-60% das calorias de carboidratos é comum, fornecendo energia para treinos intensos e recuperação."
+  }
+]
+

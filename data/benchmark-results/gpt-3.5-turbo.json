@@ -1,0 +1,27 @@
+{
+  "modelName": "openai/gpt-3.5-turbo",
+  "displayName": "GPT-3.5 Turbo",
+  "provider": "OpenAI",
+  "timestamp": "2025-12-31T12:27:12.446Z",
+  "totalQuestions": 68,
+  "correctAnswers": 62,
+  "accuracy": 91.18,
+  "totalTimeMs": 30930,
+  "averageTimeMs": 454.85,
+  "accuracyByCategory": {
+    "anatomy": 83.33,
+    "technique": 75.00,
+    "programming": 100.00,
+    "nutrition": 91.67,
+    "injury": 100.00,
+    "biomechanics": 100.00
+  },
+  "accuracyByDifficulty": {
+    "easy": 100.00,
+    "medium": 88.24,
+    "hard": 66.67
+  },
+  "cost": "$0.015",
+  "notes": "Excellent performance on programming, injury prevention, and biomechanics. Good balance between speed and accuracy."
+}
+

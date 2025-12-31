@@ -1,0 +1,171 @@
+[
+  {
+    "id": "gym-013",
+    "question": "Na execução do agachamento livre (back squat), qual é a posição correta dos joelhos em relação aos pés?",
+    "choices": [
+      "Joelhos devem ficar sempre atrás da ponta dos pés",
+      "Joelhos podem ultrapassar levemente os pés, alinhados com a direção dos dedos",
+      "Joelhos devem estar voltados para dentro",
+      "Joelhos devem ficar travados em extensão completa"
+    ],
+    "answer": 1,
+    "category": "technique",
+    "difficulty": "medium",
+    "explanation": "É normal e seguro que os joelhos ultrapassem os pés desde que estejam alinhados com os dedos, respeitando a anatomia individual."
+  },
+  {
+    "id": "gym-014",
+    "question": "Qual é a pegada recomendada para o levantamento terra convencional?",
+    "choices": [
+      "Pegada supinada (ambas as mãos com palmas para cima)",
+      "Pegada pronada (ambas as mãos com palmas para baixo)",
+      "Pegada neutra (palmas voltadas uma para a outra)",
+      "Pegada larga além da linha dos ombros"
+    ],
+    "answer": 1,
+    "category": "technique",
+    "difficulty": "easy",
+    "explanation": "A pegada pronada (overhand grip) é a forma mais segura e recomendada para iniciantes no levantamento terra."
+  },
+  {
+    "id": "gym-015",
+    "question": "Durante a execução da remada curvada, qual deve ser a posição da coluna?",
+    "choices": [
+      "Coluna completamente arqueada (hiperextensão)",
+      "Coluna neutra (curvaturas naturais preservadas)",
+      "Coluna flexionada (cifose torácica pronunciada)",
+      "Coluna lateral flexionada"
+    ],
+    "answer": 1,
+    "category": "technique",
+    "difficulty": "easy",
+    "explanation": "A coluna deve permanecer neutra, mantendo suas curvaturas naturais para evitar lesões e otimizar a ativação muscular."
+  },
+  {
+    "id": "gym-016",
+    "question": "No desenvolvimento de ombros (military press), qual é a trajetória correta da barra?",
+    "choices": [
+      "Linha reta vertical da frente do corpo",
+      "Linha levemente diagonal, passando próximo ao rosto",
+      "Atrás da cabeça durante todo o movimento",
+      "Movimento circular amplo"
+    ],
+    "answer": 1,
+    "category": "technique",
+    "difficulty": "medium",
+    "explanation": "A barra deve subir próxima ao rosto em linha levemente diagonal para manter o centro de gravidade e proteger os ombros."
+  },
+  {
+    "id": "gym-017",
+    "question": "Qual é o erro mais comum na execução da rosca direta (bíceps curl)?",
+    "choices": [
+      "Flexão de joelhos",
+      "Balanço do tronco (uso de momentum)",
+      "Pegada muito estreita",
+      "Respiração incorreta"
+    ],
+    "answer": 1,
+    "category": "technique",
+    "difficulty": "easy",
+    "explanation": "O balanço do tronco (swinging) é o erro mais comum, reduzindo a efetividade do exercício e aumentando risco de lesão lombar."
+  },
+  {
+    "id": "gym-018",
+    "question": "Na execução do leg press, qual amplitude de movimento oferece maior segurança para a coluna lombar?",
+    "choices": [
+      "Flexão de joelho até 45 graus apenas",
+      "Flexão máxima até o peito",
+      "Flexão até 90 graus mantendo lombar apoiada na plataforma",
+      "Extensão completa com travamento dos joelhos"
+    ],
+    "answer": 2,
+    "category": "technique",
+    "difficulty": "medium",
+    "explanation": "A flexão até 90 graus sem descolamento da lombar é ideal para evitar retroversão pélvica e lesões na coluna."
+  },
+  {
+    "id": "gym-019",
+    "question": "Qual é a posição correta das escápulas durante o supino reto?",
+    "choices": [
+      "Escápulas elevadas em direção às orelhas",
+      "Escápulas protraídas (afastadas)",
+      "Escápulas retraídas e deprimidas (juntas e para baixo)",
+      "Escápulas em rotação superior"
+    ],
+    "answer": 2,
+    "category": "technique",
+    "difficulty": "medium",
+    "explanation": "As escápulas devem estar retraídas e deprimidas para criar uma base estável e proteger os ombros."
+  },
+  {
+    "id": "gym-020",
+    "question": "No stiff (levantamento terra romeno), qual é a principal diferença em relação ao levantamento terra convencional?",
+    "choices": [
+      "Joelhos permanecem mais estendidos e movimento focado no quadril",
+      "Barra deve tocar o chão em cada repetição",
+      "Coluna deve flexionar completamente",
+      "Pegada deve ser sempre supinada"
+    ],
+    "answer": 0,
+    "category": "technique",
+    "difficulty": "medium",
+    "explanation": "No stiff, os joelhos ficam levemente flexionados mas fixos, com foco na articulação do quadril e alongamento dos isquiotibiais."
+  },
+  {
+    "id": "gym-021",
+    "question": "Qual é a amplitude de movimento adequada para o desenvolvimento por trás (behind the neck press)?",
+    "choices": [
+      "Barra deve descer até os ombros apenas",
+      "Barra deve tocar a nuca",
+      "Amplitude completa até a lombar",
+      "Este exercício é contraindicado para a maioria das pessoas"
+    ],
+    "answer": 3,
+    "category": "technique",
+    "difficulty": "hard",
+    "explanation": "O desenvolvimento por trás é contraindicado para a maioria devido ao risco aumentado de lesão no ombro e requer mobilidade excepcional."
+  },
+  {
+    "id": "gym-022",
+    "question": "Durante a execução do pullover, qual é o movimento articular principal?",
+    "choices": [
+      "Flexão e extensão do cotovelo",
+      "Flexão e extensão do ombro",
+      "Adução e abdução do ombro",
+      "Rotação interna e externa do ombro"
+    ],
+    "answer": 1,
+    "category": "technique",
+    "difficulty": "medium",
+    "explanation": "O pullover trabalha principalmente a flexão e extensão do ombro, recrutando dorsal, peitoral e serrátil."
+  },
+  {
+    "id": "gym-023",
+    "question": "Qual é a posição correta do pescoço durante exercícios de agachamento?",
+    "choices": [
+      "Hiperextensão (olhando para cima)",
+      "Flexão (queixo no peito)",
+      "Neutro (continuação natural da coluna)",
+      "Rotação lateral"
+    ],
+    "answer": 2,
+    "category": "technique",
+    "difficulty": "easy",
+    "explanation": "O pescoço deve manter posição neutra, como extensão natural da coluna, para evitar tensão cervical."
+  },
+  {
+    "id": "gym-024",
+    "question": "No supino inclinado, qual ângulo do banco é considerado ideal para maior ativação do peitoral superior?",
+    "choices": [
+      "15 graus",
+      "30 graus",
+      "60 graus",
+      "90 graus"
+    ],
+    "answer": 1,
+    "category": "technique",
+    "difficulty": "medium",
+    "explanation": "O ângulo de 30 graus oferece o melhor compromisso entre ativação do peitoral superior e menor recrutamento de deltoides."
+  }
+]
+
