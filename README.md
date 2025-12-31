@@ -1,6 +1,13 @@
 # 💪 Gym AI Benchmark
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue.svg)](https://www.typescriptlang.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-15-black.svg)](https://nextjs.org/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 AI Benchmark for Physical Education and Gym Training Knowledge - Evaluate LLMs on their understanding of exercise science, training programming, nutrition, and biomechanics.
+
+**🔗 Repository**: [github.com/guhcostan/gym-ai-benchmark](https://github.com/guhcostan/gym-ai-benchmark)
 
 ## 🎯 Overview
 
