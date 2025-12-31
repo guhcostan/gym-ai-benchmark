@@ -23,7 +23,8 @@ This benchmark evaluates AI models across **68 multiple-choice questions** in 6 
 ## ✨ Features
 
 - ✅ **Single API Key**: Access 100+ models via OpenRouter
-- ✅ **Free Models**: Test with no-cost models (Llama 3, Gemini Flash, Mistral)
+- ✅ **Dynamic Model Discovery**: Real-time fetching of 350+ available models from OpenRouter API
+- ✅ **35+ Free Models**: Test with no-cost models (Gemini Flash, Llama 4, GPT-4.1 Nano, and more)
 - ✅ **CLI + Web Dashboard**: Command-line tool and beautiful web interface
 - ✅ **Detailed Metrics**: Accuracy by category, difficulty, response time
 - ✅ **Model Comparison**: Benchmark multiple models side-by-side
@@ -57,8 +58,12 @@ npm run build
 ### Run Benchmark (CLI)
 
 ```bash
+# Discover available models (fetches 350+ models in real-time)
+./gym-bench.sh models
+./gym-bench.sh models --free  # Show 35+ free models
+
 # Test with a free model
-./gym-bench.sh run -m meta-llama/llama-3-8b-instruct:free
+./gym-bench.sh run -m google/gemini-2.0-flash-exp:free
 
 # Test specific category
 ./gym-bench.sh run -m google/gemini-flash-1.5:free -c anatomy
@@ -159,14 +164,20 @@ gym-bench models
 
 ## 🆓 Free Models (No Credits Required)
 
-Test immediately with these free models on OpenRouter:
+**NEW**: The benchmark now fetches available models dynamically! Run `./gym-bench.sh models --free` to see all 35+ free models.
 
-- `meta-llama/llama-3-8b-instruct:free`
-- `google/gemini-flash-1.5:free`
-- `mistralai/mistral-7b-instruct:free`
-- `nousresearch/nous-capybara-7b:free`
-- `openchat/openchat-7b:free`
-- `gryphe/mythomist-7b:free`
+Popular free models currently available:
+
+- `google/gemini-2.0-flash-exp:free` ⭐ NEW!
+- `google/gemini-2.5-flash-lite:free` ⭐ NEW!
+- `meta-llama/llama-4-maverick` ⭐ NEW!
+- `openai/gpt-4.1-nano` ⭐ NEW!
+- `openai/gpt-4.1-mini` ⭐ NEW!
+- `nvidia/nemotron-nano-9b-v2:free`
+- `mistralai/devstral-2512:free`
+- And 28+ more! Run `./gym-bench.sh models --free` to see all
+
+See [DYNAMIC_MODELS.md](DYNAMIC_MODELS.md) for details on dynamic model discovery.
 
 ## 💳 Popular Paid Models
 
