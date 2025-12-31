@@ -6,6 +6,7 @@ import { createRunCommand } from "./commands/run";
 import { createCompareCommand } from "./commands/compare";
 import { createReportCommand } from "./commands/report";
 import { createRecommendCommand } from "./commands/recommend";
+import { createBenchmarkAllCommand } from "./commands/benchmark-all";
 
 const program = new Command();
 
@@ -20,6 +21,7 @@ program.addCommand(createRunCommand());
 program.addCommand(createCompareCommand());
 program.addCommand(createReportCommand());
 program.addCommand(createRecommendCommand());
+program.addCommand(createBenchmarkAllCommand());
 
 program
   .command("models")
