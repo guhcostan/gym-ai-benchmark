@@ -5,6 +5,7 @@ import chalk from "chalk";
 import { createRunCommand } from "./commands/run";
 import { createCompareCommand } from "./commands/compare";
 import { createReportCommand } from "./commands/report";
+import { createRecommendCommand } from "./commands/recommend";
 
 const program = new Command();
 
@@ -18,6 +19,7 @@ console.log(chalk.bold.cyan("\n💪 Gym AI Benchmark\n"));
 program.addCommand(createRunCommand());
 program.addCommand(createCompareCommand());
 program.addCommand(createReportCommand());
+program.addCommand(createRecommendCommand());
 
 program
   .command("models")

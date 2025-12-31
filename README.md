@@ -22,9 +22,10 @@ This benchmark evaluates AI models across **68 multiple-choice questions** in 6 
 
 ## ✨ Features
 
-- ✅ **Single API Key**: Access 100+ models via OpenRouter
-- ✅ **Dynamic Model Discovery**: Real-time fetching of 350+ available models from OpenRouter API
-- ✅ **35+ Free Models**: Test with no-cost models (Gemini Flash, Llama 4, GPT-4.1 Nano, and more)
+- ✅ **Single API Key**: Access 350+ models via OpenRouter
+- ✅ **Dynamic Model Discovery**: Real-time fetching with smart prioritization (no hardcoded lists!)
+- ✅ **35+ Free Models**: Test with no-cost models (auto-discovered from API)
+- ✅ **Smart Recommendations**: Automatic tier classification (free/budget/premium) based on pricing
 - ✅ **CLI + Web Dashboard**: Command-line tool and beautiful web interface
 - ✅ **Detailed Metrics**: Accuracy by category, difficulty, response time
 - ✅ **Model Comparison**: Benchmark multiple models side-by-side
@@ -59,20 +60,23 @@ npm run build
 
 ```bash
 # Discover available models (fetches 350+ models in real-time)
-./gym-bench.sh models
 ./gym-bench.sh models --free  # Show 35+ free models
+./gym-bench.sh models --popular  # Show popular models
+./gym-bench.sh models --all  # Show all 350+ models
+
+# Get smart recommendations (dynamic, no hardcoded lists!)
+./gym-bench.sh recommend --tier free  # Top 20 free models
+./gym-bench.sh recommend --tier budget --limit 30  # Top 30 budget models
+./gym-bench.sh recommend --untested  # Only models you haven't tested yet
 
 # Test with a free model
-./gym-bench.sh run -m google/gemini-2.0-flash-exp:free
+./gym-bench.sh run -m nvidia/nemotron-3-nano-30b-a3b:free
 
 # Test specific category
-./gym-bench.sh run -m google/gemini-flash-1.5:free -c anatomy
+./gym-bench.sh run -m google/gemini-2.0-flash-exp:free -c anatomy
 
 # Compare multiple models
-./gym-bench.sh compare -m "google/gemini-flash-1.5:free,mistralai/mistral-7b-instruct:free"
-
-# List available free models
-./gym-bench.sh models
+./gym-bench.sh compare -m "nvidia/nemotron-3-nano-30b-a3b:free,mistralai/devstral-2512:free"
 
 # View results
 ./gym-bench.sh report -l
@@ -159,37 +163,97 @@ Options:
 ### `models` - List available models
 
 ```bash
-gym-bench models
+gym-bench models [options]
+
+Options:
+  --free     Show only free models (35+ available)
+  --popular  Show popular models (based on context length & provider)
+  --all      Show all 350+ available models
+```
+
+**Examples:**
+
+```bash
+# List all 35+ free models
+gym-bench models --free
+
+# List popular models
+gym-bench models --popular
+
+# List ALL available models
+gym-bench models --all
+```
+
+### `recommend` - Get smart recommendations (NEW! 🎉)
+
+The `recommend` command dynamically analyzes all available models from OpenRouter and suggests the best ones based on:
+- **Pricing** (free/budget/premium tiers)
+- **Provider reputation** (OpenAI, Anthropic, Google, Meta, etc.)
+- **Context length** (longer = better for complex questions)
+- **Testing status** (which models you haven't tested yet)
+
+```bash
+gym-bench recommend [options]
+
+Options:
+  -t, --tier <tier>      Filter by tier: free, budget, premium
+  -u, --untested         Show only models you haven't tested yet
+  -l, --limit <number>   Limit number of results (default: 20)
+```
+
+**Examples:**
+
+```bash
+# Get top 20 recommended models (all tiers)
+gym-bench recommend
+
+# Get top 10 free models
+gym-bench recommend --tier free --limit 10
+
+# Get only untested budget models
+gym-bench recommend --tier budget --untested
+
+# Get top 50 premium models
+gym-bench recommend --tier premium --limit 50
 ```
 
 ## 🆓 Free Models (No Credits Required)
 
-**NEW**: The benchmark now fetches available models dynamically! Run `./gym-bench.sh models --free` to see all 35+ free models.
+**🎉 NEW**: The benchmark now fetches models dynamically from OpenRouter API! No more hardcoded lists that go stale.
 
-Popular free models currently available:
+Run this to see all 35+ free models currently available:
 
-- `google/gemini-2.0-flash-exp:free` ⭐ NEW!
-- `google/gemini-2.5-flash-lite:free` ⭐ NEW!
-- `meta-llama/llama-4-maverick` ⭐ NEW!
-- `openai/gpt-4.1-nano` ⭐ NEW!
-- `openai/gpt-4.1-mini` ⭐ NEW!
-- `nvidia/nemotron-nano-9b-v2:free`
-- `mistralai/devstral-2512:free`
-- And 28+ more! Run `./gym-bench.sh models --free` to see all
+```bash
+./gym-bench.sh models --free
+# or get smart recommendations
+./gym-bench.sh recommend --tier free
+```
 
-See [DYNAMIC_MODELS.md](DYNAMIC_MODELS.md) for details on dynamic model discovery.
+Example free models (as of Dec 31, 2025):
+
+- `nvidia/nemotron-3-nano-30b-a3b:free` - 256K context, NVIDIA
+- `mistralai/devstral-2512:free` - 262K context, Mistral
+- `nvidia/nemotron-nano-9b-v2:free` - 128K context, NVIDIA
+- `openai/gpt-oss-120b:free` - 131K context, OpenAI
+- `google/gemma-3n-e2b-it:free` - Google
+- `mistralai/mistral-small-3.1-24b-instruct:free` - 128K context, Mistral
+- And 29+ more! Run `./gym-bench.sh recommend --tier free` to see all
+
+**Note**: The list changes as OpenRouter adds/removes models. Always check with `models --free` or `recommend --tier free`.
 
 ## 💳 Popular Paid Models
 
-When you have OpenRouter credits:
+When you have OpenRouter credits, use the `recommend` command to find budget and premium models:
 
-- `openai/gpt-4`
-- `openai/gpt-4-turbo`
-- `anthropic/claude-3-opus`
-- `anthropic/claude-3-sonnet`
-- `anthropic/claude-3-haiku`
-- `google/gemini-pro`
-- `meta-llama/llama-3-70b`
+```bash
+# Get top budget models (< $0.03 per benchmark)
+./gym-bench.sh recommend --tier budget
+
+# Get top premium models
+./gym-bench.sh recommend --tier premium
+```
+
+The system automatically categorizes models based on pricing and prioritizes major providers like OpenAI, Anthropic, Google, Meta, and Mistral.
 
 ## 📁 Project Structure
 

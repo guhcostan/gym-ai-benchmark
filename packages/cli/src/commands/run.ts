@@ -1,7 +1,7 @@
 import { Command } from "commander";
 import chalk from "chalk";
 import ora from "ora";
-import { BenchmarkEvaluator, Category } from "@gym-bench/core";
+import { BenchmarkEvaluator, Category, hasResultForModel, getResultForModel } from "@gym-bench/core";
 import type { ModelConfig } from "@gym-bench/core";
 import { loadQuestions, saveResult } from "../utils/loader";
 import * as dotenv from "dotenv";
@@ -17,7 +17,22 @@ export function createRunCommand(): Command {
     .option("-c, --category <category>", "Specific category to test")
     .option("-p, --provider <provider>", "Provider (default: openrouter)", "openrouter")
     .option("-t, --temperature <temp>", "Temperature (default: 0)", "0")
+    .option("-f, --force", "Force re-run even if results exist")
     .action(async (options) => {
+      // Check if results already exist
+      if (!options.force && !options.category) {
+        const existingResult = getResultForModel(options.model);
+        
+        if (existingResult) {
+          console.log(chalk.yellow("\n⚠️  Results already exist for this model!"));
+          console.log(chalk.gray(`   File: ${existingResult.filename}`));
+          console.log(chalk.gray(`   Accuracy: ${existingResult.accuracy.toFixed(2)}%`));
+          console.log(chalk.gray(`   Date: ${new Date(existingResult.timestamp).toLocaleString()}`));
+          console.log(chalk.cyan("\n💡 Use --force to re-run the benchmark"));
+          console.log(chalk.cyan("   Or use 'gym-bench report -f <filename>' to view results\n"));
+          return;
+        }
+      }
       const spinner = ora("Loading questions...").start();
       
       try {
