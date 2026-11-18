@@ -2,8 +2,9 @@ import { ChatOpenAI } from "@langchain/openai";
 import { BaseChatModel } from "@langchain/core/language_models/chat_models";
 import type { ModelConfig } from "./types";
 import * as dotenv from "dotenv";
+import * as path from "path";
 
-dotenv.config({ path: require("path").join(__dirname, "../../../.env") });
+dotenv.config({ path: path.join(__dirname, "../../../.env") });
 
 export function createModel(config: ModelConfig): BaseChatModel {
   const { provider, modelName, apiKey, baseURL, temperature = 0, maxTokens = 10 } = config;

@@ -1,5 +1,5 @@
 import { calculateMetrics } from '../metrics';
-import { BenchmarkResult, Category, Difficulty } from '../types';
+import { BenchmarkResult } from '../types';
 
 describe('Metrics', () => {
   const mockResult: BenchmarkResult = {

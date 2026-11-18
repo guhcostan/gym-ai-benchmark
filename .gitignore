@@ -6,8 +6,9 @@ node_modules/
 # Testing
 coverage/
 
-# Production
+# Build
 dist/
+*.tsbuildinfo
 build/
 .next/
 out/

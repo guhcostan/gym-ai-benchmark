@@ -44,7 +44,7 @@ export function listCachedResults(): CachedResult[] {
   return results;
 }
 
-export function hasResultForModel(modelName: string, category?: string): boolean {
+export function hasResultForModel(modelName: string, _category?: string): boolean {
   const cached = listCachedResults();
   
   for (const result of cached) {
